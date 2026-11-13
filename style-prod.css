@@ -207,9 +207,9 @@ html, body, h1, h2, h3, p, li { hyphens: none; -webkit-hyphens: none; }
 .nw { white-space: nowrap; }
 html, body { overflow-x: clip; }
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
-/* первый экран: фото с прозрачностью .4 (дефолт шаблона .3), затемнение только под текстом слева и внизу */
+/* первый экран: фото с прозрачностью .5 (дефолт шаблона .3), затемнение только под текстом слева и внизу */
 .s-hero__bg { height: min(94%, 780px); }
-.s-hero__bg img { opacity: .4; filter: saturate(1.05) brightness(1.25) contrast(1.05); object-position: 50% 50%; }
+.s-hero__bg img { opacity: .5; filter: saturate(1.05) brightness(1.25) contrast(1.05); object-position: 50% 50%; }
 .s-hero__bg::after { background:
   linear-gradient(90deg, color-mix(in srgb, var(--c-canvas) 42%, transparent) 0%, color-mix(in srgb, var(--c-canvas) 24%, transparent) 30%, transparent 56%),
   linear-gradient(180deg, transparent 0%, transparent 70%, var(--c-canvas) 100%); }
